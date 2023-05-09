@@ -2,7 +2,7 @@ package vkiHesaplama;
 
 import java.util.Scanner;
 
-public class VkiHespalama {
+public class VkiHesaplama {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
