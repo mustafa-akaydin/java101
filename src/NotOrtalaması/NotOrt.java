@@ -1,10 +1,8 @@
 package NotOrtalaması;
-
 import java.util.Scanner;
-
 public class NotOrt {
     public static void main(String[] args) {
-        int mat, fizik, kimya, tarih,müzik;
+        int mat, fizik, kimya, tarih,muzik;
         Scanner not = new Scanner(System.in);
 
         System.out.print("Lütfen notu giriniz: ");
@@ -16,8 +14,8 @@ public class NotOrt {
         System.out.print("Lütfen notu giriniz: ");
         tarih = not.nextInt();
         System.out.print("Lütfen notu giriniz: ");
-        müzik = not.nextInt();
-        int toplam=(mat+ fizik +kimya +tarih+müzik);
+        muzik = not.nextInt();
+        int toplam=(mat+ fizik +kimya +tarih+muzik);
         double ortalama=toplam/5;
         boolean sonuc = ortalama > 60;
         System.out.println(sonuc ? "Sınıfı geçtiniz!" : "Sınıfta kaldınız.");
