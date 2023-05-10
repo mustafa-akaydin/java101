@@ -1,3 +1,4 @@
+
 package DaireAlan;
 
 import java.util.Scanner;
