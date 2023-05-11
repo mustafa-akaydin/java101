@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ManavKasaProgram {
     public static void main(String[] args) {
-        double armut=2.14,elma=3.67 ,domates=1.11,muz=0.95,patlican=5.00 ;
+        double armut = 2.14, elma = 3.67, domates = 1.11, muz = 0.95, patlican = 5.00;
 
         Scanner kilo = new Scanner(System.in);
 
@@ -28,9 +28,9 @@ public class ManavKasaProgram {
         double patlicanFiyat = patlican * patlicanKilo;
 
         //toplam fiyatı ölçüyoruz
-        double toplam = armutFiyat+elmaFiyat+domatesFiyat+muzFiyat+patlicanFiyat;
+        double toplam = armutFiyat + elmaFiyat + domatesFiyat + muzFiyat + patlicanFiyat;
         //ekrana yazıdrııyoruz
-        System.out.printf("Toplam Tutar: %.2f\n" , toplam);
+        System.out.printf("Toplam Tutar: %.2f\n", toplam);
 
 
     }
