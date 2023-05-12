@@ -11,7 +11,7 @@ public class SayiBolme1 {
         int sum = 0;
         int count = 0;
 
-        for (int i =0; i <= n; i++) {
+        for (int i = 0; i <= n; i++) {
             if (i % 3 == 0 && i % 4 == 0) {  // 3 ve 4'e tam bölünen sayıları bulma
                 sum += i;
                 count++;
@@ -19,7 +19,7 @@ public class SayiBolme1 {
         }
 
         if (count > 0) {  // Eğer en az bir sayı bulunduysa
-            double average = sum /count;
+            double average = sum / count;
             System.out.println("Ortalama: " + average);
         } else {
             System.out.println("3 ve 4'e tam bölünen sayı yok.");
