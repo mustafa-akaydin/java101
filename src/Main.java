@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Java Patika Projeleri");
+        System.out.println("Hello Patika.dev");
     }
 }
